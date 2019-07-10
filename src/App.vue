@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
+    <hi-geroo-btn></hi-geroo-btn>
   </div>
 </template>
 
 <script>
+import HGR from "./lib/index";
 export default {
   name: "app",
   data() {
